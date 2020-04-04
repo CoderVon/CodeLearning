@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>创建表单</title>
+</head>
+<body>
+    <form>
+        <input type="text" ><!--单行文本框-->
+        <br><br>
+        <input type="text" value="靠谱"><!--占位符-->
+        <br><br>
+        <input type="text" placeholder="靠普" ><!--仅显示不占位-->
+        <br><br>
+        <input type="text" maxlength="10"><!--最大长度限制-->
+        <br><br>
+        <input type="text" size="50"><!--拓宽单行文本框-->
+        <br><br>
+        <input type="text" readonly value="这里不能输入">
+        <br><br>
+        <input type="password"placeholder="密码" >
+        <br><br>
+        <textarea rows="20" cols="20"></textarea><!--多行文本框-->
+
+        <input type="button" value="button">
+        <button>button</button><!--可以和js协作 绑定事件-->
+        <input type="submit" value="submit"><!--提交表单-->
+
+        <input type="range" min="0" max="10000" step="100" value="100"><!--滑块-->
+        <input type="number">
+        <input type="checkbox"value="选择" >
+
+        <br>
+        <input type="radio" value="选择" name="a" checked>1
+        <input type="radio" value="选择" name="a">2
+        <input type="radio" value="选择" name="a">3
+
+        <br>
+        <br>
+        你喜欢什么？
+        <select>
+            <option>西瓜</option>
+            <option>西瓜</option>
+            <option>西瓜</option>
+        </select>
+
+        <br>
+        <br>
+        <input type="text" list="datalist">
+        <datalist id="datalist">
+            <option value="西瓜"></option>
+            <option value="西瓜"></option>
+            <option value="西瓜"></option>
+        </datalist>
+    </form>
+    <br>
+    <br> 
+
+</body>
+</html>
