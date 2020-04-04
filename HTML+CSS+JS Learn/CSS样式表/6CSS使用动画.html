@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>创建动画</title>
+    <style>
+        /* p标签样式 */
+        p{
+            width: 100px;
+            height: 100px;
+            background-color: antiquewhite;
+        }
+        /* 鼠标移到p标签上触发 */
+        p:hover{
+            animation-duration: 500ms;   
+            animation-delay: 200ms;
+            animation-name: anim;
+            animation-iteration-count:infinite;
+            animation-direction: alternate;
+        }
+        /* name为anim的动画具体实现 */
+        @keyframes anim{
+            from{
+                width: 150px;
+                height: 150px;
+                background-color: chocolate;
+            }
+            50%{
+                width: 170px;
+                height: 170px;
+            }
+            to{
+                width:200px;
+                height:200px;
+                background-color: blueviolet;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <p></p>
+</body>
+</html>

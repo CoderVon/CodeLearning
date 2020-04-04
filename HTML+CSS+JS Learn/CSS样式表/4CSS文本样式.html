@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>创建文本样式</title>
+    <style type="text/css">
+        .class1{
+            /* 对齐方式 */
+            text-align:center;
+            /* 字母间距 */
+            letter-spacing: 10px;
+        }
+        .class2{
+            /* 书写方向 */
+            direction: ltr;
+            /* 单词间距 */
+            word-spacing: 10px;
+            /* 首行缩进 */
+            text-indent: 50px;
+            /* 文本装饰 */
+            text-decoration: line-through;
+            /* 字母大小写自动转换 */
+            text-transform:capitalize;
+        }
+        .class3{
+            font-family: 微软雅黑;
+        }
+    </style>
+</head>
+<body>
+    <p class="class1">你好</p>
+    <p class="class2">helloworldhelllloworl</p>
+    <p class="class3">微软雅黑</p>
+    <p style="font-family: 宋体;font-size: 100px;font-style: oblique;">宋体</p>
+    <!-- 大写 -->
+    <p style="text-transform:uppercase;">helloword</p>
+    <!-- 小型大写 -->
+    <p style="font-variant: small-caps;">helloword</p>
+
+    <!-- 字体粗细对比 -->
+    <p style="font-weight: 100;">字体粗细对比 100</p>
+    <p style="font-weight: 900;">字体粗细对比 900</p>
+    <p style="font-weight: bold;">字体粗细对比 bold</p>
+    <p style="font-weight: bolder;">字体粗细对比 bolder</p>
+
+    <!-- 文本阴影 水平偏移1px 竖直偏移2px 模糊程度3px 颜色red-->
+    <p style="text-shadow: 1px 2px 3px red;">文本阴影</p>
+</html>
