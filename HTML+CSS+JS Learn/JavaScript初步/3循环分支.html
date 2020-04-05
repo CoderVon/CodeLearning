@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var str = '';
+        for (var i = 1; i <= 9; i++)//外层循环 行数
+        {
+            for (var j = 1; j <= i; j++)//每一行个数
+            {
+                str += j + 'X' + i + '=' + (i * j) + '  ';
+            }
+            str += '\n';
+        }
+        console.log(str);
+        var message = prompt('你爱我吗');
+        while (message != '我爱你') {
+            message = prompt('你爱我吗');
+        }
+        var menuStr = '请输入您要的操作\n1.存钱\n2.取钱\n3.显示余额\n4.退出'
+        var moneyNum = 0;
+        var menuNum = prompt(menuStr);
+        while (true) {
+            switch (menuNum) {
+                case '1':
+                    {
+                        var tempNum = prompt('需要存多少钱');
+                        moneyNum += Number(tempNum);
+                        alert('已经存入' + tempNum + '元');
+                        var menuNum = prompt(menuStr);
+                        break;
+                    }
+
+                case '2':
+                    {
+                        var tempNum = prompt('需要存多少钱');
+                        if (moneyNum >= Number(tempNum)) {
+                            moneyNum -= tempNum;
+                            alert('还有余额' + moneyNum + '元');
+                            var menuNum = prompt(menuStr);
+                        }
+                        else {
+                            alert('余额不足');
+                            var menuNum = prompt(menuStr);
+                        }
+                        break;
+                    }
+
+                case '3':
+                    {
+
+                        alert('您的余额为' + moneyNum);
+
+                        var menuNum = prompt(menuStr);
+                        break;
+
+                    }
+
+                case '4':
+                    {
+                        var menuNum = prompt(menuStr);
+                        break;
+                    }
+
+
+            }
+        }
+
+
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
