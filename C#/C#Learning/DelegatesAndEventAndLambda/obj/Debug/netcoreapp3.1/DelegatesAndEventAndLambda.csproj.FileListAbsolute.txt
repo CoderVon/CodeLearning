@@ -1,0 +1,13 @@
+E:\Unity Project\C#Project\DelegatesAndEventAndLambda\bin\Debug\netcoreapp3.1\DelegatesAndEventAndLambda.exe
+E:\Unity Project\C#Project\DelegatesAndEventAndLambda\bin\Debug\netcoreapp3.1\DelegatesAndEventAndLambda.deps.json
+E:\Unity Project\C#Project\DelegatesAndEventAndLambda\bin\Debug\netcoreapp3.1\DelegatesAndEventAndLambda.runtimeconfig.json
+E:\Unity Project\C#Project\DelegatesAndEventAndLambda\bin\Debug\netcoreapp3.1\DelegatesAndEventAndLambda.runtimeconfig.dev.json
+E:\Unity Project\C#Project\DelegatesAndEventAndLambda\bin\Debug\netcoreapp3.1\DelegatesAndEventAndLambda.dll
+E:\Unity Project\C#Project\DelegatesAndEventAndLambda\bin\Debug\netcoreapp3.1\DelegatesAndEventAndLambda.pdb
+E:\Unity Project\C#Project\DelegatesAndEventAndLambda\obj\Debug\netcoreapp3.1\DelegatesAndEventAndLambda.csprojAssemblyReference.cache
+E:\Unity Project\C#Project\DelegatesAndEventAndLambda\obj\Debug\netcoreapp3.1\DelegatesAndEventAndLambda.csproj.CoreCompileInputs.cache
+E:\Unity Project\C#Project\DelegatesAndEventAndLambda\obj\Debug\netcoreapp3.1\DelegatesAndEventAndLambda.AssemblyInfoInputs.cache
+E:\Unity Project\C#Project\DelegatesAndEventAndLambda\obj\Debug\netcoreapp3.1\DelegatesAndEventAndLambda.AssemblyInfo.cs
+E:\Unity Project\C#Project\DelegatesAndEventAndLambda\obj\Debug\netcoreapp3.1\DelegatesAndEventAndLambda.dll
+E:\Unity Project\C#Project\DelegatesAndEventAndLambda\obj\Debug\netcoreapp3.1\DelegatesAndEventAndLambda.pdb
+E:\Unity Project\C#Project\DelegatesAndEventAndLambda\obj\Debug\netcoreapp3.1\DelegatesAndEventAndLambda.genruntimeconfig.cache

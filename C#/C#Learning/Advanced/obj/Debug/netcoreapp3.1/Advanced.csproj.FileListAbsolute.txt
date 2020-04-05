@@ -1,0 +1,13 @@
+E:\Unity Project\C#Project\Advanced\obj\Debug\netcoreapp3.1\Advanced.csprojAssemblyReference.cache
+E:\Unity Project\C#Project\Advanced\obj\Debug\netcoreapp3.1\Advanced.csproj.CoreCompileInputs.cache
+E:\Unity Project\C#Project\Advanced\obj\Debug\netcoreapp3.1\Advanced.AssemblyInfoInputs.cache
+E:\Unity Project\C#Project\Advanced\obj\Debug\netcoreapp3.1\Advanced.AssemblyInfo.cs
+E:\Unity Project\C#Project\Advanced\bin\Debug\netcoreapp3.1\Advanced.exe
+E:\Unity Project\C#Project\Advanced\bin\Debug\netcoreapp3.1\Advanced.deps.json
+E:\Unity Project\C#Project\Advanced\bin\Debug\netcoreapp3.1\Advanced.runtimeconfig.json
+E:\Unity Project\C#Project\Advanced\bin\Debug\netcoreapp3.1\Advanced.runtimeconfig.dev.json
+E:\Unity Project\C#Project\Advanced\bin\Debug\netcoreapp3.1\Advanced.dll
+E:\Unity Project\C#Project\Advanced\bin\Debug\netcoreapp3.1\Advanced.pdb
+E:\Unity Project\C#Project\Advanced\obj\Debug\netcoreapp3.1\Advanced.dll
+E:\Unity Project\C#Project\Advanced\obj\Debug\netcoreapp3.1\Advanced.pdb
+E:\Unity Project\C#Project\Advanced\obj\Debug\netcoreapp3.1\Advanced.genruntimeconfig.cache

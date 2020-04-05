@@ -1,0 +1,13 @@
+E:\Unity Project\C#Project\CreateType\bin\Debug\netcoreapp3.1\CreateType.exe
+E:\Unity Project\C#Project\CreateType\bin\Debug\netcoreapp3.1\CreateType.deps.json
+E:\Unity Project\C#Project\CreateType\bin\Debug\netcoreapp3.1\CreateType.runtimeconfig.json
+E:\Unity Project\C#Project\CreateType\bin\Debug\netcoreapp3.1\CreateType.runtimeconfig.dev.json
+E:\Unity Project\C#Project\CreateType\bin\Debug\netcoreapp3.1\CreateType.dll
+E:\Unity Project\C#Project\CreateType\bin\Debug\netcoreapp3.1\CreateType.pdb
+E:\Unity Project\C#Project\CreateType\obj\Debug\netcoreapp3.1\CreateType.csprojAssemblyReference.cache
+E:\Unity Project\C#Project\CreateType\obj\Debug\netcoreapp3.1\CreateType.csproj.CoreCompileInputs.cache
+E:\Unity Project\C#Project\CreateType\obj\Debug\netcoreapp3.1\CreateType.AssemblyInfoInputs.cache
+E:\Unity Project\C#Project\CreateType\obj\Debug\netcoreapp3.1\CreateType.AssemblyInfo.cs
+E:\Unity Project\C#Project\CreateType\obj\Debug\netcoreapp3.1\CreateType.dll
+E:\Unity Project\C#Project\CreateType\obj\Debug\netcoreapp3.1\CreateType.pdb
+E:\Unity Project\C#Project\CreateType\obj\Debug\netcoreapp3.1\CreateType.genruntimeconfig.cache
