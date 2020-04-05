@@ -24,3 +24,68 @@
 转换为Boolean：Boolean()；0、NaN、Null、undefined、空字符串转换为false,其他的为true;
 ## 运算符优先级
 https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
+## 数组 
+- 尽量避免使用new Array()
+- Array.length是可读写的；
+- pop()和push()分别是在数组结尾弹出和压入数据
+- shift()和unshift()则是在数组开头弹出和压入数据
+## 函数
+- 用function声明函数 function name(){}或者var name=function(){}
+- 若实参个数多于形参，则多余的不传入
+- 若实参个数少于形参，则视为没有接收值（undefined）
+- arguments里存储了所有传递过来的实参
+- es6以后才有块级作用域
+## 对象
+- 利用字面量{}创建对象 如var obj{}
+- 对象内的属性或者方法采取键值对的形式 键 属性名：值 属性值
+- 多个属性或者方法中奖用逗号隔开
+    
+        
+        //创建对象方式1
+        var man={
+            name:"张三",
+            age:18,
+            sex:"男",
+            say:function(){
+                console.log("HelloWorld");
+            }
+        }
+
+        //创建对象方式2 通过追加属性和函数
+        man=new Object();//创建空对象
+        man.name='张三';
+        man.age=18;
+        man.sex='男'；//追加属性
+        man.say=function(){
+            console.log("HelloWorld");
+        }//追加函数
+
+        //创建对象方式3 通过构造函数
+        function Person(name,age,sex){
+            this.name=name;
+            this.age=age;
+            this.sex=sex;
+            this.say=function(){
+            console.log("HelloWorld");
+            }
+        }
+        man=new Person('张三',18,'男');
+
+
+        //调用对象的属性的两种方法
+        console.log(man.name);
+        console.log(man['name']);
+        调用对象的函数
+        man.say();
+
+        //遍历对象里的所有元素
+        for(var k in man){
+            console.log(k);//name age sex say
+            console.log(man[k]);//张三 18 男 say(){console.log("HelloWorld");}
+        }
+
+## 预解析
+1. js引擎运行js分为两步：预解析 代码执行
+2. 预解析 js会把js里所有的var和function提升到当前作用域的最前面
+3. 变量预解析：将所有的变量声明提升到当前作用域最前面 不提升赋值操作
+4. 函数预解析：将所有的函数声明提升到当前作用域最前面 不调用函数

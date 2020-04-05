@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //创建对象方式1
+        var man = {
+            name:"张三",
+            age:18,
+            sex:"男",
+            say:function(){
+                console.log("HelloWorld");
+            }
+        }
+
+
+        // //创建对象方式2 通过追加属性和函数
+        // man=new Object();//创建空对象
+        // man.name='张三';
+        // man.age=18;
+        // man.sex='男';//追加属性
+        // man.say=function(){
+        //     console.log("HelloWorld");
+        // }//追加函数
+
+
+        // //创建对象方式3 通过构造函数
+        // function Person(name,age,sex){
+        //     this.name=name;
+        //     this.age=age;
+        //     this.sex=sex;
+        //     this.say=function(){
+        //     console.log("HelloWorld");
+        //     }
+        // }
+        // man=new Person('张三',18,'男');
+
+
+        //调用对象的属性的两种方法
+        console.log(man.name);
+        console.log(man['name']);
+        //调用对象的函数
+        man.say();
+        
+        //遍历对象里的所有元素
+        for(var k in man){
+            console.log(k);//属性名 name age sex 
+            // console.log(man[k]);//属性值 张三 18 男
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
